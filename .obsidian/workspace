@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "392367d3a87316d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "778f4e0e4572ccdf",
+        "type": "leaf",
+        "dimension": 46.25382262996942,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Introduction.md",
+            "mode": "source"
+          }
+        },
+        "group": "d048477cfbbc305b"
+      },
+      {
+        "id": "3629689f9d6f4fbb",
+        "type": "leaf",
+        "dimension": 53.74617737003058,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Introduction.md",
+            "mode": "preview"
+          }
+        },
+        "group": "d048477cfbbc305b"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7931e5c10aeaceee",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c2d513f995858d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d8819fbe2ccf3d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fe13c86300b011f1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "23e060d1a808a34d",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd459082c5f6d80f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be1af36970e74be2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Introduction.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Introduction.md",
+    "intro.md",
+    "Setup.md",
+    "Untitled.md",
+    "types.md"
+  ]
+}
