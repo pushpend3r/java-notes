@@ -6,12 +6,11 @@
       {
         "id": "778f4e0e4572ccdf",
         "type": "leaf",
-        "dimension": 46.25382262996942,
-        "active": true,
+        "dimension": 41.89602446483181,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Introduction.md",
+            "file": "Basics.md",
             "mode": "source"
           }
         },
@@ -20,11 +19,12 @@
       {
         "id": "3629689f9d6f4fbb",
         "type": "leaf",
-        "dimension": 53.74617737003058,
+        "dimension": 58.10397553516819,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Introduction.md",
+            "file": "Basics.md",
             "mode": "preview"
           }
         },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction.md",
+                "file": "Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,10 +102,12 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Basics.md",
     "Introduction.md",
-    "intro.md",
-    "Setup.md",
     "Untitled.md",
+    "Java Architecture.md",
+    "Setup.md",
+    "intro.md",
     "types.md"
   ]
 }

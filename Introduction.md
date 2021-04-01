@@ -43,9 +43,9 @@ Netflix, Google, Instagram etc. [link](https://stackshare.io/java)
 2. ##### Enterprise
 	standard + additional libraries for building very large scale fault tolerant distributed multi-tiered softwares.
 3. ##### Micro
-	subset of standard design for mobile devices and provides libraries specific for mobile devices.
+	subset of standard edition designed for mobile devices and provides libraries specific for mobile devices.
 4. ##### Java card
 	used in smart cards
 
 ---
-	
+
