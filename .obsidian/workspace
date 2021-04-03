@@ -6,7 +6,6 @@
       {
         "id": "778f4e0e4572ccdf",
         "type": "leaf",
-        "dimension": 51.146788990825684,
         "active": true,
         "state": {
           "type": "markdown",
@@ -14,21 +13,7 @@
             "file": "Data Types.md",
             "mode": "source"
           }
-        },
-        "group": "fd65bf1dc0914a8d"
-      },
-      {
-        "id": "699804f3b8d9faf2",
-        "type": "leaf",
-        "dimension": 48.853211009174316,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Data Types.md",
-            "mode": "preview"
-          }
-        },
-        "group": "fd65bf1dc0914a8d"
+        }
       }
     ],
     "direction": "vertical"
