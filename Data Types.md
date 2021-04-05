@@ -27,4 +27,35 @@ _**Unicode** defines a full international character set that can represent most 
 Note:- `$NAME` is the variable name.
 
 ---
-SOme changes
+
+#### Non Primitive Data type
+
+These data type also called **Reference Data Types** because they only store the memory location of the variable not the actual value.
+
+A **reference type** is a **data type** that's based on a class rather than on one of the primitive types that are built in to the Java language
+
+```mermaid
+graph LR
+RefData1 --> MemoryLocation
+RefData2 --> MemoryLocation
+```
+
+Suppose when you deal with *primitive* data types
+
+```cpp
+int a = 12; // stores 12
+int b = a;  // a value copied to variable b
+```
+
+In the above case number `12` is stored in 2 different locations.
+
+Whereas in *reference* data type, both variables points to same memory location.
+
+Data types in this type is below :-
+
+1. String
+2. Class
+3. Object
+4. Interface
+5. Array
+
