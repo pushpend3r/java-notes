@@ -6,12 +6,12 @@
       {
         "id": "778f4e0e4572ccdf",
         "type": "leaf",
-        "dimension": 49.46483180428135,
+        "dimension": 49.46483180428136,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Types.md",
+            "file": "Variables.md",
             "mode": "source"
           }
         },
@@ -20,11 +20,11 @@
       {
         "id": "8fafe87d6a040d4e",
         "type": "leaf",
-        "dimension": 50.53516819571865,
+        "dimension": 50.53516819571864,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Types.md",
+            "file": "Variables.md",
             "mode": "preview"
           }
         },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Types.md",
+                "file": "Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,10 +102,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Data Types.md",
+    "Variables.md",
     "Basics.md",
-    "Introduction.md",
+    "Data Types.md",
     "Untitled.md",
+    "Introduction.md",
     "Java Architecture.md",
     "Setup.md",
     "intro.md",

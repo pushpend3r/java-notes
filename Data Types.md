@@ -30,7 +30,7 @@ Note:- `$NAME` is the variable name.
 
 #### Non Primitive Data type
 
-These data type also called **Reference Data Types** because they only store the memory location of the variable not the actual value.
+These data types also called **Reference Data Types** because they only store the memory location of the variable not the actual value.
 
 A **reference type** is a **data type** that's based on a class rather than on one of the primitive types that are built in to the Java language
 
