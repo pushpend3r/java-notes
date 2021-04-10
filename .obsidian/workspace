@@ -6,8 +6,7 @@
       {
         "id": "778f4e0e4572ccdf",
         "type": "leaf",
-        "dimension": 47.32006125574272,
-        "active": true,
+        "dimension": 47.09035222052068,
         "state": {
           "type": "markdown",
           "state": {
@@ -20,7 +19,7 @@
       {
         "id": "8fafe87d6a040d4e",
         "type": "leaf",
-        "dimension": 52.67993874425727,
+        "dimension": 52.90964777947933,
         "state": {
           "type": "markdown",
           "state": {
@@ -89,6 +88,8 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -101,6 +102,7 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "778f4e0e4572ccdf",
   "lastOpenFiles": [
     "Operators.md",
     "Basics.md",

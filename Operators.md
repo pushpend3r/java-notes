@@ -1,4 +1,4 @@
-Operators are used to perform operations on variables and values.
+Operators are used to perform operations on variables or values.
 
 There are various types of operators in Java :- 
 - Arithmetic
@@ -10,6 +10,8 @@ There are various types of operators in Java :-
 - Bitwise
 - Shift
 - `instance of `
+
+---
 
 #### Arithmetic
 1. `*` : Multiplication - `a * b` --> multiply `a` and `b`.
@@ -24,6 +26,8 @@ int a = 12;
 int b = 5;
 int c = a / b; // c would be 2 instead of 2.4
 ```
+
+---
 
 #### Unary
 1. `-` : Unary minus - `-a`.
@@ -46,6 +50,8 @@ int c = a / b; // c would be 2 instead of 2.4
 5. `!` : Logical not Operator - `!a`
 	used for inverting the boolean value, means `true` becames `false` or vice verse.
 
+---
+
 #### Assignment
 `=` used to assign value to the variable. e.g.
 ```java
@@ -63,8 +69,116 @@ In many cases assignment operator can be combined with other operators to build 
 - `*=`
 - `/=`
 - `%=`
+etc...
+
+---
 
 #### Relational
 
 use to check equality, greater than, less than. It returns boolean result means either `true` or `false`.
 
+Syntax - 
+
+`variable relation_opertor value/expression`
+
+- `==` : Equals To - returns `true` if left side is equal to right side
+- `!=` : not equals to - returns `true` if left side is not equal to right side.
+- `<` : less than
+- `>` : greater than
+- `<=` : less than or equals to
+- `>=` : greater than or equals to
+
+---
+
+#### Logical
+used to determine the logic between variables or values:
+1. `&&` : Logical AND - returns true if both expressions are true
+	```java
+	boolean a = true;
+	boolean b = false;
+	boolean result = a && b; // false
+	```
+2. `||` : Logical OR - returns true if either of the expressions are true.
+	```java
+	boolean a = true;
+	boolean b = false;
+	boolean result = a || b; // true
+	```
+3. `!` : Logical NOT - reverse the result/expression/value
+	```java
+	boolean a = true;
+	boolean b = false;
+	boolean result = !(a && b); // true
+	``` 
+	
+---
+
+#### Ternary
+
+short-hand version of `if-else` statement. It has 3 operands thats why it got it's name "ternary".
+
+`condition ? if true : if false`
+
+```java
+int a = 12;
+int b = 10;
+int result = a < 13 ? a : b; // a
+// or
+int result = a < 12 ? a : b; // b
+```
+
+---
+
+#### Bitwise
+use to perform operations on individual bits of a number/s and can be used on any of the integer types.
+
+
+| Bit 1 | Bit 2 | AND | OR | XOR |
+| --- | --- | --- | --- | --- |
+| `0` | `1` | `0` | `1` | `1` |
+| `0` | `0` | `0` | `0` | `0` |
+| `1` | `1` | `1` | `1` | `0` |
+| `1` | `0` | `0` | `1` | `1` |
+
+1. `&` : Bitwise AND
+	```java
+	int a = 12;
+	int b = 13;
+	int result = a & b; // 12
+	
+	/* Explaination
+	a in binary form - 1100
+	b in binary form - 1101
+					--------
+			result	   1100
+	*/
+	```
+	
+2. `|` : Bitwise OR 
+	```java
+	int a = 12;
+	int b = 13;
+	int result = a | b; // 13
+	
+	/* Explaination
+	a in binary form - 1100
+	b in binary form - 1101
+					--------
+			result	   1101
+	*/
+	```
+3. `^` : Bitwise XOR
+	```java
+	int a = 12;
+	int b = 13;
+	int result = a ^ b; // 1
+	
+	/* Explaination
+	a in binary form - 1100
+	b in binary form - 1101
+					--------
+			result	   0001
+	*/
+	```
+4. `~` : Bitwise Complement
+		
