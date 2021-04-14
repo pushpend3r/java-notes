@@ -6,7 +6,7 @@
       {
         "id": "778f4e0e4572ccdf",
         "type": "leaf",
-        "dimension": 47.09035222052068,
+        "dimension": 45.865237366003065,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "8fafe87d6a040d4e",
         "type": "leaf",
-        "dimension": 52.90964777947933,
+        "dimension": 54.134762633996935,
         "state": {
           "type": "markdown",
           "state": {
@@ -105,11 +105,11 @@
   "active": "778f4e0e4572ccdf",
   "lastOpenFiles": [
     "Operators.md",
+    "Data Types.md",
     "Basics.md",
     "How to determine the primitive type of a primitive variable.md",
     "Untitled.md",
     "Variables.md",
-    "Data Types.md",
     "Introduction.md",
     "Java Architecture.md",
     "Setup.md",

@@ -181,4 +181,59 @@ use to perform operations on individual bits of a number/s and can be used on an
 	*/
 	```
 4. `~` : Bitwise Complement
-		
+	It reverse bits of a number.
+	```java
+	int a = 5;
+	int result = ~a; // -6
+	
+	/* Explaination
+	First reverse the bits
+	a = 5 = 0101 (starting bit sign means 
+	0 = positive and 1 = negative)
+	0101 => 1010
+	here result's starting bit is 
+	1 means number is negative, 
+	
+	In java negative numbers are 
+	represented in 2's complement form.
+	so this result is 2's complemented.
+	
+	To get back the original negative number
+	we have to apply 2's complement the result except starting bit
+	means only 010
+	
+	so after conversion answer will be 110 and it decimal value is 6
+	also we know number is a negative number
+	
+	so the final answer is -6.
+	
+	*/
+	```
+	
+	
+#### Shift Operator
+Syntax - 
+```java
+value/expression shift_operator number.
+```
+1. `<<` : Signed Left Shift
+	shift the bits to left and rightmost shifted bits will be filled with `0`.
+2. `>>` : Signed Right Shift
+	shifts bits to the right and shifted bits are filled with sign bit of the original number.
+	Steps:- 
+	- Represent number in binary form (positive number is in simple binary form and negative number will be in 2's complement form).
+	- Shift bits accordingly
+	- The leftmost bits will be filled with sign bit.
+	- Again 2's complement it except leftmost bit.
+
+	example (in case of negative number)
+	- `-10 = 10110`
+	- `01011` (suppose 1 bit has be shifted)
+	- `11011`
+	- 2's complement of `1011` (except leftmost bit)
+	- the result will be `0101` and it will negative because sign bit is `1`.
+	- Decimal of the `0101` is `5` and result will be `-5`.
+
+
+3. `>>>` : Unsigned right shift
+	shifts the bits to the right and leftmost shifted bits will be filled witn `0`.
