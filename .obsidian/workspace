@@ -6,11 +6,11 @@
       {
         "id": "778f4e0e4572ccdf",
         "type": "leaf",
-        "dimension": 45.865237366003065,
+        "dimension": 52.833078101071976,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operators.md",
+            "file": "Taking Input.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "8fafe87d6a040d4e",
         "type": "leaf",
-        "dimension": 54.134762633996935,
+        "dimension": 47.166921898928024,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operators.md",
+            "file": "Taking Input.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operators.md",
+                "file": "Taking Input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,15 +104,15 @@
   },
   "active": "778f4e0e4572ccdf",
   "lastOpenFiles": [
+    "Taking Input.md",
+    "Untitled.md",
     "Operators.md",
     "Data Types.md",
     "Basics.md",
     "How to determine the primitive type of a primitive variable.md",
-    "Untitled.md",
     "Variables.md",
     "Introduction.md",
     "Java Architecture.md",
-    "Setup.md",
-    "intro.md"
+    "Setup.md"
   ]
 }
