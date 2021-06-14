@@ -33,7 +33,25 @@
 > The statements inside your source files are generally executed from top to bottom, in the order that they appear. _Control flow statements_, however, break up the flow of execution by employing **decision making**, **looping**, and **branching**, enabling your program to _conditionally_ execute particular blocks of code. - [Source](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
 
 #### Decision Making
-- `if`
-- `if-else`
-- `switch-case`
-- `jump`
+-  `if` - [here](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
+-  `if-else` - [here](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
+-  `switch-case` - [here](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html)
+
+#### Looping
+It is a feature which facilitates the execution of a set of instructions/functions repeatedly while some condition evaluates to true.
+- `while`
+- `do-while`
+- `for`
+- Enhanced `for`
+
+[here](https://www.geeksforgeeks.org/loops-in-java/?ref=lbp)
+
+#### Branching
+These statements are used to jump the flow of execution from one part of a program to another.
+- `break`
+- `continue`
+- `return`
+
+[here](https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/?ref=lbp)
+
+---
